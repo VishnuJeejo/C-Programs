@@ -16,8 +16,9 @@ int check_os(void)
             #else
                 printf("\nYou are using a linux based distro\n");
             #endif
+        #else
+            printf("\nYou are using unix based distro");
         #endif
-        printf("\nYou are using unix based distro");
     #endif
     #ifdef __APPLE__
         #ifdef TARGET_OS_MAC  
@@ -32,7 +33,8 @@ int check_os(void)
         #ifdef  TARGET_OS_EMBEDDED
             printf("\nYou are running this on an embeded device running iOS\n");
         #endif
-        printf("\nYou are using an Apple based OS\n"); 
+        #else
+            printf("\nYou are using an Apple based OS\n"); 
     #endif
     #ifdef BSD
         printf("\nYou are using a BSD based OS\n");
