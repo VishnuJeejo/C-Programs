@@ -32,9 +32,9 @@ int check_os(void)
         #endif
         #ifdef  TARGET_OS_EMBEDDED
             printf("\nYou are running this on an embeded device running iOS\n");
-        #endif
         #else
             printf("\nYou are using an Apple based OS\n"); 
+        #endif
     #endif
     #ifdef BSD
         printf("\nYou are using a BSD based OS\n");
