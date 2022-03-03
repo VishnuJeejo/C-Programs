@@ -108,7 +108,7 @@ plt.show()
 from google.colab import drive
 drive.mount('/content/gdrive')
 
-!ls
+
 
 cd 'MyDrive'
 
